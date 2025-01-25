@@ -29,7 +29,7 @@ const iconsArray = [
 ];
 
 const page = () => {
-  const [angles, setAngles] = useState<number[]>([
+  const [angles] = useState<number[]>([
     45, 90, 135, 180, 225, 270, 315, 360,
   ]);
   const [target, setTarget] = useState(7);
